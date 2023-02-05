@@ -15,3 +15,10 @@
 
 * 09:00-11:30: Hacking on projects
 * 11:30-12:00: Wrap up
+
+## Project Ideas
+
+* BridgeDb 3 Docker [Marvin Martens]
+* BridgeDb Webservice JSON support [Helena Basaric]
+* Nanomaterial ID mapping databases [Egon Willighagen]
+* Updated Wikidata-based ID mapping databases [Martina Kutmon] (starting Wednesday after lunch)
