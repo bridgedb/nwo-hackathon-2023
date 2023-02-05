@@ -8,6 +8,7 @@
 ### Day 1 (Wednesday, February 8)
 
 * 10:00-10:30: Opening
+    * 5 minute: update NWO Open Science grant
 * 10:30-11:00: Introduction projects and grouping
 * 11:00-18:00: Hacking on projects
 
