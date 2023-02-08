@@ -15,4 +15,24 @@
 * NanoMILE <> ERM identifier mappings are now included
 * JRC <> ERM identifiers
     * [notes from the first hackathon](https://docs.google.com/document/d/1v_RdqasghNU8el1aSOJEQrW_ixbpvAd9MlgU1shjTt4/edit?usp=sharing)
-* 
+
+
+## QC Results:
+
+```
+INFO: old database is create-nanomaterial-mappings 20230208 (build: 20230208)
+INFO: new database is create-nanomaterial-mappings 20230208 (build: 20230208)
+INFO: Number of ids in Nmjrc (Unknown data source): 45 (unchanged)
+INFO: Number of ids in Wd (Wikidata): 45 (unchanged)
+INFO: new size is 2 Mb (changed +0.0%)
+INFO: total number of identifiers is 207
+INFO: total number of mappings is 207
+NEW DB INFO: total number of primary ids in Unknown data source are 45
+NEW DB INFO: total number of secondary ids in Unknown data source are 0
+NEW DB INFO: total number of primary ids in Wikidata are 45
+NEW DB INFO: total number of secondary ids in Wikidata are 0
+OLD DB INFO: total number of primary ids in Unknown data source are 45
+OLD DB INFO: total number of secondary ids in Unknown data source are 0
+OLD DB INFO: total number of primary ids in Wikidata are 45
+OLD DB INFO: total number of secondary ids in Wikidata are 0
+```
