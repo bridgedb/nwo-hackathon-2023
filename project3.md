@@ -15,6 +15,7 @@
 * NanoMILE <> ERM identifier mappings are now included
 * JRC <> ERM identifiers
     * [notes from the first hackathon](https://docs.google.com/document/d/1v_RdqasghNU8el1aSOJEQrW_ixbpvAd9MlgU1shjTt4/edit?usp=sharing)
+    * [previous tool](https://github.com/bridgedb/Wikidata2Bridgedb/blob/master/src/org/bridgedb/wikidata/Nanomaterials.java)
 * Next step: [update datasources.tsv](https://github.com/bridgedb/datasources/pull/36) and make a BridgeDb release
 
 
