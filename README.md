@@ -9,7 +9,7 @@
 ### Day 1 (Wednesday, February 8)
 
 * 10:00-10:30: Opening
-    * 5 minute: update NWO Open Science grant [Egon]
+    * 10 minutes: update NWO Open Science grant [Egon] [slides](https://doi.org/10.5281/zenodo.7619942)
 * 10:30-11:00: Introduction projects and grouping
 * 11:00-18:00: Hacking on projects
 
