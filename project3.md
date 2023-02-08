@@ -47,7 +47,4 @@ OLD DB INFO: total number of primary ids in Joint Research Center are 45
 OLD DB INFO: total number of secondary ids in Joint Research Center are 0
 OLD DB INFO: total number of primary ids in Wikidata are 45
 OLD DB INFO: total number of secondary ids in Wikidata are 0
-ERROR: 59/59 (100%) ids do not match expected pattern for European Registry of Materials
-ERROR: expected pattern is ''
-ERROR: aberrant ids are e.g. 'ERM00000326', 'ERM00000334', 'ERM00000332', 'ERM00000333', 'ERM00000330', 'ERM00000331', 'ERM00000064', 'ERM00000329', 'ERM00000327', 'ERM00000328'
 ```
