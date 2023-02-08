@@ -2,6 +2,7 @@
 
 * Place: Maastricht / Online
 * Date: 2023-02-08/09
+* Hashtag: [#bridgedbnwo](https://hashtags-hub.toolforge.org/bridgedbnwo)
 
 ## Schedule
 
