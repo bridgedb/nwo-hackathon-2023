@@ -6,6 +6,8 @@
 
 ## Participants
 
+* Jeaphianne van Rijn
+
 ## Notes
 
 * created a repo: https://github.com/bridgedb/create-nanomaterial-mappings
