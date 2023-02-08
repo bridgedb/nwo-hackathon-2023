@@ -10,3 +10,4 @@
 
 * created a repo: https://github.com/bridgedb/create-nanomaterial-mappings
 * two sources of ID mappings added
+* NanoMILE <> ERM identifier mappings are now included
