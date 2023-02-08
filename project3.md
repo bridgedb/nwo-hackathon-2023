@@ -23,17 +23,30 @@
 ```
 INFO: old database is create-nanomaterial-mappings 20230208 (build: 20230208)
 INFO: new database is create-nanomaterial-mappings 20230208 (build: 20230208)
-INFO: Number of ids in Nmjrc (Unknown data source): 45 (unchanged)
+INFO: Number of ids in Nmerm (European Registry of Materials): 59 (unchanged)
+INFO: Number of ids in Nmnm (NanoMILE): 58 (unchanged)
+INFO: Number of ids in Nmjrc (Joint Research Center): 45 (unchanged)
 INFO: Number of ids in Wd (Wikidata): 45 (unchanged)
 INFO: new size is 2 Mb (changed +0.0%)
 INFO: total number of identifiers is 207
 INFO: total number of mappings is 207
-NEW DB INFO: total number of primary ids in Unknown data source are 45
-NEW DB INFO: total number of secondary ids in Unknown data source are 0
+NEW DB INFO: total number of primary ids in European Registry of Materials are 59
+NEW DB INFO: total number of secondary ids in European Registry of Materials are 0
+NEW DB INFO: total number of primary ids in NanoMILE are 58
+NEW DB INFO: total number of secondary ids in NanoMILE are 0
+NEW DB INFO: total number of primary ids in Joint Research Center are 45
+NEW DB INFO: total number of secondary ids in Joint Research Center are 0
 NEW DB INFO: total number of primary ids in Wikidata are 45
 NEW DB INFO: total number of secondary ids in Wikidata are 0
-OLD DB INFO: total number of primary ids in Unknown data source are 45
-OLD DB INFO: total number of secondary ids in Unknown data source are 0
+OLD DB INFO: total number of primary ids in European Registry of Materials are 59
+OLD DB INFO: total number of secondary ids in European Registry of Materials are 0
+OLD DB INFO: total number of primary ids in NanoMILE are 58
+OLD DB INFO: total number of secondary ids in NanoMILE are 0
+OLD DB INFO: total number of primary ids in Joint Research Center are 45
+OLD DB INFO: total number of secondary ids in Joint Research Center are 0
 OLD DB INFO: total number of primary ids in Wikidata are 45
 OLD DB INFO: total number of secondary ids in Wikidata are 0
+ERROR: 59/59 (100%) ids do not match expected pattern for European Registry of Materials
+ERROR: expected pattern is ''
+ERROR: aberrant ids are e.g. 'ERM00000326', 'ERM00000334', 'ERM00000332', 'ERM00000333', 'ERM00000330', 'ERM00000331', 'ERM00000064', 'ERM00000329', 'ERM00000327', 'ERM00000328'
 ```
