@@ -16,15 +16,31 @@ The GitHub repository for the BridgeDb Docker files: https://github.com/bridgedb
 
 The Docker build works, and the service works as intended, but only the API and not the user interface. 
 
-First full Docker image pushed to DockerHub with all newest mapping files, but without Swagger UI: https://hub.docker.com/layers/bigcatum/bridgedb/3.0.14-ni/images/sha256-46752a7311985451b482500250278ecfa2a52b42b3f19c5631dfaa2538522206?context=explore
+Step 1 was the creation of a working Docker image with the new BridgeDb version and newest ID mapping files, and pushing it to Dockerhub, which was done, but without UI. 
 
-After the first version without UI, with help of Egon and Helena we now have the new swagger UI as part of the Docker image.
+After the first version without UI, with help of Egon and Helena we now have the new swagger UI as part of the Docker image. There were 2 issues with the swagger.json file at the start:
+- The URL was hardcoded to a localhost URL, which made deployments elsewhere (server, or on other ports) not work
+- There were internal CORS issues, stopping the connection between the UI and the webservice
 
-Also, a GitHub action is created to make new builds and push these to DockerHub. --> todo: make the naming with version. (update GH action)
-- push "latest" and with version
-- version dynamic --> based on variable or input read from other file (Dockerfile or setup.sh)
-- Activate action upon new ID mapping file release
+The first issue was resolved by including an environment variable in the "startup.sh" which can be entered through the `docker run` command (see below)
+The second issue was resolved by Helena and Ammar, adding a "*" somewhere. 
 
-To-do: add automatic download of bridgedb-webservice-X.X.X.jar instead of copy. 
+Automation of the Docker image building and pushing to DockerHub:
+A GitHub action is created to make new builds and push these to DockerHub. It pushes the Image with 2 different tags: 1 with "latest" and 1 with the current BridgeDb version, which is automatically parsed from the "setup.sh" file. The action is automatically started if the Dockerfile, setup.sh or startup.sh files are updated, or if the ID mapping files in https://github.com/bridgedb/data are updated, which then sends out a ping to the build action. 
+
+To pull the latest version of the Docker image:
+```
+sudo docker pull bigcatum/bridgedb:latest
+```
+
+To run the image:
+```
+sudo docker run --name bridgedb -p [PORT1]:8080 -p [PORT2]:8183 -e SERVER_URL='[SERVER_URL]:[PORT2]' bigcatum/bridgedb:3.0.14
+```
+
+
+Remaining goals (future):
+- add automatic download of bridgedb-webservice-X.X.X.jar instead of copy
+- make the URL in swagger.json automatically filled out, without environment variable
 
 
