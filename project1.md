@@ -21,6 +21,9 @@ First full Docker image pushed to DockerHub with all newest mapping files, but w
 After the first version without UI, with help of Egon and Helena we now have the new swagger UI as part of the Docker image.
 
 Also, a GitHub action is created to make new builds and push these to DockerHub. --> todo: make the naming with version. (update GH action)
+- push "latest" and with version
+- version dynamic --> based on variable or input read from other file (Dockerfile or setup.sh)
+- Activate action upon new ID mapping file release
 
 To-do: add automatic download of bridgedb-webservice-X.X.X.jar instead of copy. 
 
