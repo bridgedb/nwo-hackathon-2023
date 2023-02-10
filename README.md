@@ -21,14 +21,8 @@
 
 ## Project Ideas
 
-* [Updated Wikidata-based ID mapping databases](https://github.com/bridgedb/nwo-hackathon-2023/issues/4) [Martina Kutmon] (starting Thursday morning)
-
-### Ongoing
-
 * [BridgeDb 3 Docker](https://github.com/bridgedb/nwo-hackathon-2023/issues/1) [Marvin Martens]
 * [BridgeDb Webservice JSON support](https://github.com/bridgedb/nwo-hackathon-2023/issues/2) [Helena Basaric]
-
-### Completed
-
-* [Visualizing derby databases](https://github.com/bridgedb/nwo-hackathon-2023/issues/5) [Tooba Abbassi-Daloii]
 * [Nanomaterial ID mapping databases](https://github.com/bridgedb/nwo-hackathon-2023/issues/3) [Egon Willighagen]
+* [Updated Wikidata-based ID mapping databases](https://github.com/bridgedb/nwo-hackathon-2023/issues/4) [Martina Kutmon] (starting Thursday morning)
+* [Visualizing derby databases](https://github.com/bridgedb/nwo-hackathon-2023/issues/5) [Tooba Abbassi-Daloii]
